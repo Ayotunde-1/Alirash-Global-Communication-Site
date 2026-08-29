@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALIRASH GLOBAL COMMUNICATION & ALIRASH AUTOS | Official Store & 3D Showroom</title>
+  
+  <!-- Meta & SEO -->
+  <meta name="description" content="Official website of Alirash Global Communication (@alirashglobal on TikTok) and Alirash Autos. iPhone 17 Pro Max, Samsung, Laptops, Accessories & Luxury Car Swaps. Located Front of UBA, Offa, Kwara State." />
+  <meta name="keywords" content="Alirash Global, Alirash Autos, alirashglobal TikTok, iPhone 17 Pro Max Offa, iPhone Offa, Samsung Offa, Laptops Offa, Car Swap Offa Kwara, Front of UBA Offa" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#2563eb',
+              cyan: '#00f0ff',
+              cyanGlow: '#38bdf8',
+              gold: '#f59e0b',
+              emerald: '#10b981',
+              dark: '#030712',
+              card: '#0b1329'
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body class="bg-[#030712] text-slate-100 selection:bg-cyan-500 selection:text-black">
+
+  <!-- Ambient Light Orbs -->
+  <div class="hero-gradient-orb orb-blue"></div>
+  <div class="hero-gradient-orb orb-cyan"></div>
+
+  <!-- ==================== TOP ANNOUNCEMENT BAR ==================== -->
+  <div class="bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 py-1.5 px-4 text-xs font-semibold border-b border-blue-800/40 text-slate-200">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        <span>📍 <strong>Physical Store:</strong> Front of UBA (United Bank for Africa), Offa, Kwara State</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px]">
+        <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="hover:text-pink-400 transition flex items-center gap-1.5 text-pink-300 font-bold">
+          <i class="fa-brands fa-tiktok text-sm"></i> @alirashglobal (10.5K+ Likes)
+        </a>
+        <a href="mailto:alyus545@gmail.com" class="hidden sm:inline hover:text-cyan-300 transition text-slate-400">
+          <i class="fa-solid fa-envelope text-cyan-400 mr-1"></i> alyus545@gmail.com
+        </a>
+        <a href="tel:09030630431" class="hover:text-cyan-300 transition flex items-center gap-1 font-bold">
+          <i class="fa-solid fa-phone text-cyan-400"></i> 0903 063 0431
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header id="main-navbar" class="sticky top-0 z-40 bg-[#030712]/80 backdrop-blur-xl border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="brand-ag-emblem">
+          <span>AG</span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-cyan-400 transition-colors flex items-center gap-1.5">
+            ALIRASH GLOBAL
+          </span>
+          <span class="text-[10px] sm:text-xs uppercase font-bold text-slate-400 tracking-wider">
+            Communication & Autos
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-300">
+        <a href="#showroom-3d" class="hover:text-cyan-400 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-cube text-cyan-400 text-xs"></i> 3D Studio
+        </a>
+        <a href="#gadgets" class="hover:text-cyan-400 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-mobile-screen-button text-blue-400 text-xs"></i> Gadgets
+        </a>
+        <a href="#tiktok-section" class="hover:text-pink-400 transition flex items-center gap-1.5">
+          <i class="fa-brands fa-tiktok text-pink-400 text-xs"></i> TikTok Reels
+        </a>
+        <a href="#autos" class="hover:text-cyan-400 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-car text-amber-400 text-xs"></i> Autos
+        </a>
+        <a href="#swap-calculator-section" class="hover:text-cyan-400 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-arrow-right-arrow-left text-emerald-400 text-xs"></i> Swap Deals
+        </a>
+        <a href="#store-location" class="hover:text-cyan-400 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-location-dot text-red-400 text-xs"></i> Offa Store
+        </a>
+      </nav>
+
+      <!-- Header Actions: Inventory Manager, Currency, Cart, WhatsApp -->
+      <div class="flex items-center gap-2.5">
+        
+        <!-- Add New Item / Store Admin Button -->
+        <button id="btn-open-add-item-modal" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-800 hover:bg-cyan-600/90 text-cyan-300 hover:text-white border border-slate-700 text-xs font-bold transition shadow" title="Add new product to inventory">
+          <i class="fa-solid fa-plus text-xs"></i> <span>Add Item</span>
+        </button>
+
+        <!-- Currency Switcher -->
+        <div class="flex items-center bg-slate-900 border border-slate-800 rounded-xl p-1 text-xs">
+          <button class="currency-toggle-btn active" data-currency="NGN">₦ NGN</button>
+          <button class="currency-toggle-btn" data-currency="USD">$ USD</button>
+        </div>
+
+        <!-- Cart Drawer Button -->
+        <button class="open-cart-btn relative p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white transition flex items-center justify-center">
+          <i class="fa-solid fa-bag-shopping text-base text-cyan-400"></i>
+          <span class="cart-count-badge absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-blue-600 text-[10px] font-black text-white flex items-center justify-center border-2 border-[#030712]">0</span>
+        </button>
+
+        <!-- Direct WhatsApp CTA -->
+        <a href="https://wa.me/2349030630431?text=Hello%20Alirash%20Global,%20I%20am%20contacting%20you%20from%20your%20official%20website" target="_blank" class="hidden md:inline-flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition shadow-lg shadow-emerald-950/40">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobile-menu-toggle-btn" class="lg:hidden p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="relative pt-8 pb-16 lg:py-20 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Top Tagline & Status Pill -->
+      <div class="flex flex-wrap items-center gap-3 mb-6">
+        <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-pink-500/10 text-pink-400 border border-pink-500/30 inline-flex items-center gap-2 hover:bg-pink-500/20 transition">
+          <i class="fa-brands fa-tiktok text-pink-400"></i> Follow @alirashglobal on TikTok
+        </a>
+        <div id="store-live-status-pill">
+          <span id="store-live-status-text">Loading store status...</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-white tracking-tight leading-[1.1]">
+            Quality <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 text-glow-cyan">Gadgets</span>, Best Prices.<br />
+            Cars You Can <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-400">Trust & Swap</span>.
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 font-normal max-w-2xl leading-relaxed">
+            Welcome to the official digital hub of <strong>Alirash Global Communication</strong> (@alirashglobal) and <strong>Alirash Autos</strong>. Dealers in all kinds of original <strong>iPhones, Samsung, Laptops, Accessories</strong>, plus luxury vehicle sales and trade-in swaps in Offa, Kwara State.
+          </p>
+
+          <!-- Social Proof & TikTok Metrics Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="p-3 rounded-xl bg-slate-900/70 border border-slate-800/80">
+              <div class="text-xs text-pink-400 font-bold uppercase flex items-center gap-1.5">
+                <i class="fa-brands fa-tiktok"></i> TikTok Likes
+              </div>
+              <div class="text-lg font-black text-white mt-0.5">10.5K+</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-900/70 border border-slate-800/80">
+              <div class="text-xs text-cyan-400 font-bold uppercase flex items-center gap-1.5">
+                <i class="fa-solid fa-users"></i> Followers
+              </div>
+              <div class="text-lg font-black text-white mt-0.5">1,650+</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-900/70 border border-slate-800/80">
+              <div class="text-xs text-amber-400 font-bold uppercase flex items-center gap-1.5">
+                <i class="fa-solid fa-star"></i> Customer Rating
+              </div>
+              <div class="text-lg font-black text-white mt-0.5">4.9 / 5.0</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-900/70 border border-slate-800/80">
+              <div class="text-xs text-emerald-400 font-bold uppercase flex items-center gap-1.5">
+                <i class="fa-solid fa-truck-fast"></i> Logistics
+              </div>
+              <div class="text-lg font-black text-white mt-0.5">Nationwide</div>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#showroom-3d" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-sm transition shadow-lg shadow-cyan-900/30 flex items-center gap-2">
+              <i class="fa-solid fa-cube text-base"></i>
+              <span>Rotate iPhone 17 Pro Max in 3D</span>
+            </a>
+            <a href="#gadgets" class="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white font-bold text-sm transition border border-slate-700 flex items-center gap-2">
+              <i class="fa-solid fa-bag-shopping text-cyan-400"></i>
+              <span>Shop All Gadgets</span>
+            </a>
+            <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-pink-600 text-white font-bold text-sm transition border border-pink-900/50 flex items-center gap-2">
+              <i class="fa-brands fa-tiktok text-pink-400"></i>
+              <span>Watch on TikTok</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Floating Showcase -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-3xl p-6 bg-gradient-to-b from-slate-900/90 via-slate-900/60 to-blue-950/40 border border-slate-800 shadow-2xl backdrop-blur-xl">
+            
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800/80 mb-4">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+              </div>
+              <span class="text-xs font-mono text-cyan-400 font-bold">@ALIRASHGLOBAL • TIKTOK VERIFIED</span>
+            </div>
+
+            <!-- Poster Banner Visual Representation -->
+            <div class="relative rounded-2xl overflow-hidden aspect-[4/5] bg-slate-950 border border-slate-800/80 group">
+              <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80" alt="Alirash Gadgets & Autos" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" />
+              
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex flex-col justify-end p-6">
+                <div class="brand-ag-emblem mb-3 w-10 h-10 text-sm">AG</div>
+                <div class="text-xs font-extrabold uppercase text-cyan-400 tracking-wider">Dealers in all kinds of:</div>
+                <h3 class="text-xl font-black text-white mb-2">iPhone, Samsung, Laptops & Accessories</h3>
+                
+                <div class="p-3 rounded-xl bg-blue-950/80 border border-blue-600/40 backdrop-blur-md mt-2 flex items-center justify-between">
+                  <div>
+                    <div class="text-[11px] font-bold text-amber-300 uppercase">ALIRASH AUTOS</div>
+                    <div class="text-xs font-extrabold text-white">Buy, Sell & Swap Cars</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-[10px] text-slate-400">WhatsApp Hotline</div>
+                    <div class="text-xs font-mono font-bold text-cyan-300">0903 063 0431</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex items-center justify-between text-xs text-slate-400 px-2">
+              <span><i class="fa-solid fa-location-pin text-red-400 mr-1"></i> Front of UBA, Offa</span>
+              <a href="mailto:alyus545@gmail.com" class="text-cyan-400 hover:underline font-bold flex items-center gap-1">
+                <i class="fa-solid fa-envelope"></i> alyus545@gmail.com
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 3D ROTATION ITEM STUDIO SECTION ==================== -->
+  <section id="showroom-3d" class="py-16 bg-slate-950/80 border-y border-slate-800/80 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 inline-flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-arrows-spin animate-spin"></i> Interactive 3D Rotation Studio
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+          Inspect Flagship Items in <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-orange-400 to-blue-500">Real-Time 3D</span>
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 mt-2">
+          Experience our cutting-edge 3D turntable viewer. Click & drag to rotate 360°, switch Cosmic Copper & Titanium finishes, toggle lighting presets, and view detailed specs.
+        </p>
+      </div>
+
+      <!-- Model Selector Pills (Includes iPhone 17 Pro Max) -->
+      <div class="flex items-center justify-center gap-2 sm:gap-3 flex-wrap mb-8">
+        <button class="studio-model-selector-btn active" data-model-id="3d-iphone17">
+          <i class="fa-brands fa-apple text-orange-400 mr-1.5"></i> iPhone 17 Pro Max
+        </button>
+        <button class="studio-model-selector-btn" data-model-id="3d-iphone">
+          <i class="fa-brands fa-apple text-cyan-400 mr-1.5"></i> iPhone 16 Pro Max
+        </button>
+        <button class="studio-model-selector-btn" data-model-id="3d-samsung">
+          <i class="fa-solid fa-mobile-screen text-indigo-400 mr-1.5"></i> Galaxy S24 Ultra
+        </button>
+        <button class="studio-model-selector-btn" data-model-id="3d-macbook">
+          <i class="fa-solid fa-laptop text-slate-300 mr-1.5"></i> MacBook Pro M3 Max
+        </button>
+        <button class="studio-model-selector-btn" data-model-id="3d-jbl">
+          <i class="fa-solid fa-volume-high text-amber-400 mr-1.5"></i> JBL Boombox 3
+        </button>
+        <button class="studio-model-selector-btn" data-model-id="3d-car">
+          <i class="fa-solid fa-car text-emerald-400 mr-1.5"></i> Alirash Autos BMW M4
+        </button>
+      </div>
+
+      <!-- Main 3D Studio Canvas & Controls Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- 3D WebGL Canvas Viewport -->
+        <div class="lg:col-span-8">
+          <div class="studio-3d-wrapper">
+            
+            <div class="absolute top-4 left-4 z-20 flex items-center gap-2">
+              <span id="studio-item-badge" class="px-3 py-1 text-xs font-extrabold rounded-full bg-blue-600 text-white shadow-md">Flagship 2026 / 2027</span>
+              <span class="px-2.5 py-1 text-[11px] font-semibold rounded-full bg-slate-900/80 text-cyan-300 border border-slate-700 backdrop-blur-md hidden sm:inline-flex items-center gap-1.5">
+                <i class="fa-solid fa-hand-pointer text-cyan-400 animate-bounce"></i> Drag to rotate 360°
+              </span>
+            </div>
+
+            <!-- Viewport Controls Overlay -->
+            <div class="absolute top-4 right-4 z-20 flex flex-wrap items-center gap-2">
+              <button id="btn-toggle-autorotate" class="px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 text-cyan-300 text-xs font-bold border border-slate-700 backdrop-blur-md transition flex items-center gap-1.5">
+                <i class="fa-solid fa-rotate text-xs"></i> <span>Auto-Spin: ON</span>
+              </button>
+              <button id="btn-reset-3d-view" class="p-1.5 px-2.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 text-slate-300 text-xs border border-slate-700 backdrop-blur-md transition" title="Reset View">
+                <i class="fa-solid fa-crosshairs"></i>
+              </button>
+            </div>
+
+            <!-- Lighting Presets Bar -->
+            <div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 bg-slate-950/80 p-1.5 rounded-2xl border border-slate-800 backdrop-blur-md">
+              <span class="text-[10px] font-bold text-slate-400 uppercase ml-2 mr-1 hidden sm:inline">Lighting:</span>
+              <button class="lighting-preset-btn active px-2.5 py-1 text-[11px] font-bold rounded-lg text-slate-300 hover:text-white" data-preset="studio">Studio</button>
+              <button class="lighting-preset-btn px-2.5 py-1 text-[11px] font-bold rounded-lg text-slate-300 hover:text-white" data-preset="cyber">Cyber Neon</button>
+              <button class="lighting-preset-btn px-2.5 py-1 text-[11px] font-bold rounded-lg text-slate-300 hover:text-white" data-preset="sunset">Sunset Gold</button>
+            </div>
+
+            <!-- 3D ThreeJS Canvas Container -->
+            <div id="three-canvas-container"></div>
+
+          </div>
+        </div>
+
+        <!-- 3D Product Details & Customizer Panel -->
+        <div class="lg:col-span-4 p-6 sm:p-8 rounded-3xl bg-slate-900/70 border border-slate-800 backdrop-blur-xl flex flex-col justify-between space-y-6">
+          
+          <div>
+            <div class="text-xs uppercase font-extrabold text-cyan-400 tracking-wider mb-1" id="studio-item-subtitle">
+              Next-Gen A19 Pro & Cosmic Titanium
+            </div>
+            <h3 class="text-2xl sm:text-3xl font-extrabold font-heading text-white mb-3" id="studio-item-title">
+              iPhone 17 Pro Max
+            </h3>
+            
+            <div class="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-cyan-300 mb-4" id="studio-item-price">
+              ₦2,450,000
+            </div>
+
+            <!-- Finish / Color Palette Selector -->
+            <div class="mb-6">
+              <div class="flex items-center justify-between text-xs font-semibold text-slate-400 mb-2.5">
+                <span>Select 3D Color Finish:</span>
+                <span class="text-cyan-300 font-bold" id="studio-selected-color-name">Cosmic Copper Orange</span>
+              </div>
+              <div class="flex items-center gap-3" id="studio-swatches-container">
+                <!-- Injected dynamically by three-scene.js -->
+              </div>
+            </div>
+
+            <!-- Feature Highlights List -->
+            <div>
+              <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Specifications & Features:</div>
+              <ul class="space-y-2 mb-6" id="studio-features-list">
+                <!-- Injected dynamically -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3D CTAs -->
+          <div class="space-y-2.5 pt-4 border-t border-slate-800/80">
+            <button onclick="window.AlirashCart.quickBuyWhatsApp({name: document.getElementById('studio-item-title').textContent, priceNGN: 2450000}, 'Brand New', document.getElementById('studio-selected-color-name').textContent)" 
+                    class="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm transition flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Order on WhatsApp (Instant Invoice)</span>
+            </button>
+            <button onclick="window.AlirashCart.addItem(ALIRASH_DATA.products[0], 1, {color: document.getElementById('studio-selected-color-name').textContent})"
+                    class="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs transition border border-slate-700 flex items-center justify-center gap-2">
+              <i class="fa-solid fa-cart-shopping text-cyan-400"></i>
+              <span>Add Selected Item to Cart</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== TIKTOK REELS & LIVE STORE SHOWCASE ==================== -->
+  <section id="tiktok-section" class="py-16 bg-slate-950 border-b border-slate-800 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <span class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-pink-500/10 text-pink-400 border border-pink-500/30 inline-flex items-center gap-2 mb-3">
+            <i class="fa-brands fa-tiktok text-pink-400"></i> Live on TikTok @alirashglobal
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+            Real Store Arrivals & <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-cyan-400">Unboxing Reels</span>
+          </h2>
+          <p class="text-sm text-slate-400 mt-1">
+            Watch our daily TikTok unboxing videos, stock deliveries, laptop stacks, and parcels leaving our Offa store!
+          </p>
+        </div>
+
+        <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="px-5 py-3 rounded-xl bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white text-xs font-bold transition flex items-center gap-2 shadow-lg shadow-pink-950/50">
+          <i class="fa-brands fa-tiktok text-base"></i>
+          <span>Follow @alirashglobal (10.5K Likes)</span>
+        </a>
+      </div>
+
+      <!-- TikTok Reels Grid -->
+      <div id="tiktok-reels-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Injected dynamically by catalog.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== GADGET STORE CATALOG SECTION ==================== -->
+  <section id="gadgets" class="py-16 lg:py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header & Filter Controls -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div>
+          <span class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-blue-600/20 text-cyan-300 border border-cyan-500/30 inline-flex items-center gap-2 mb-3">
+            <i class="fa-solid fa-shield-halved"></i> 100% Genuine Certified Devices
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+            Alirash Global <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Gadget Store</span>
+          </h2>
+          <p class="text-sm text-slate-400 mt-1">
+            Top-tier iPhones, Samsung Galaxy, MacBooks, Audio & Tech Accessories in Offa & Nationwide.
+          </p>
+        </div>
+
+        <!-- Search Bar, Add Item, Sort -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          
+          <button onclick="window.AlirashCatalog.openAddItemModal()" class="px-3.5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow">
+            <i class="fa-solid fa-plus text-xs"></i> <span>+ Add Item</span>
+          </button>
+
+          <!-- Search input -->
+          <div class="relative min-w-[220px]">
+            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+            <input type="text" id="gadget-search-input" placeholder="Search iPhone, MacBook..." 
+                   class="w-full pl-9 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition" />
+          </div>
+
+          <!-- Sort Select -->
+          <select id="gadget-sort-select" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-cyan-500 transition">
+            <option value="featured">Sort: Featured</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating">Highest Rated</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Category Filter Pills Bar -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-6 no-scrollbar">
+        <button class="gadget-cat-pill active" data-category="all">All Gadgets</button>
+        <button class="gadget-cat-pill" data-category="iphone">iPhones</button>
+        <button class="gadget-cat-pill" data-category="samsung">Samsung</button>
+        <button class="gadget-cat-pill" data-category="google-pixel">Google Pixel</button>
+        <button class="gadget-cat-pill" data-category="laptops">Laptops & MacBooks</button>
+        <button class="gadget-cat-pill" data-category="ipads">iPads & Tablets</button>
+        <button class="gadget-cat-pill" data-category="audio">Audio & Speakers</button>
+        <button class="gadget-cat-pill" data-category="gaming">Gaming & PS5</button>
+        <button class="gadget-cat-pill" data-category="accessories">Accessories</button>
+      </div>
+
+      <!-- Condition Filters & Count -->
+      <div class="flex items-center justify-between flex-wrap gap-3 mb-8 pb-4 border-b border-slate-800/80">
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-slate-400 font-medium mr-1">Condition:</span>
+          <button class="condition-filter-btn active" data-condition="all">All Conditions</button>
+          <button class="condition-filter-btn" data-condition="brand-new">Brand New Sealed</button>
+          <button class="condition-filter-btn" data-condition="uk-used">Direct UK Used (Grade A)</button>
+        </div>
+        <div id="gadgets-count-badge" class="text-xs font-semibold text-slate-400">
+          Showing available inventory
+        </div>
+      </div>
+
+      <!-- Gadget Cards Grid -->
+      <div id="gadgets-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Injected dynamically by catalog.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ALIRASH AUTOS SECTION ==================== -->
+  <section id="autos" class="py-16 lg:py-24 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-t border-slate-800/80 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Autos Banner Header -->
+      <div class="p-8 sm:p-12 rounded-3xl bg-gradient-to-r from-slate-900 via-blue-950/80 to-slate-900 border border-blue-500/30 shadow-2xl relative overflow-hidden mb-12">
+        <div class="relative z-10 max-w-3xl">
+          <span class="px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40 inline-flex items-center gap-2 mb-3">
+            <i class="fa-solid fa-car"></i> Automobile Division
+          </span>
+          <h2 class="text-3xl sm:text-5xl font-black font-heading text-white tracking-tight">
+            ALIRASH AUTOS
+          </h2>
+          <p class="text-lg sm:text-xl font-bold text-cyan-300 mt-1">
+            WE BUY, SELL & SWAP CARS
+          </p>
+          <p class="text-sm text-slate-300 mt-3 leading-relaxed">
+            Looking for a clean foreign-used (Tokunbo) luxury sedan, SUV, or want to trade in your current car for an upgrade? We provide verified title vehicles with authentic customs documents and on-the-spot inspections right here in Offa, Kwara State.
+          </p>
+        </div>
+
+        <div class="mt-6 flex flex-wrap items-center gap-3 relative z-10">
+          <a href="https://wa.me/2349030630431?text=Hello%20Alirash%20Autos,%20I%20want%20to%20inquire%20about%20your%20car%20inventory%20and%20swap%20deals" target="_blank" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition flex items-center gap-2 shadow-lg">
+            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Car Specialist
+          </a>
+          <a href="#swap-calculator-section" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-xs transition border border-slate-700">
+            <i class="fa-solid fa-calculator mr-1"></i> Car Swap Valuation
+          </a>
+        </div>
+      </div>
+
+      <!-- Autos Cards Grid -->
+      <div id="autos-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Injected dynamically by catalog.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SWAP / TRADE-IN CALCULATOR SECTION ==================== -->
+  <section id="swap-calculator-section" class="py-16 lg:py-24 bg-[#030712] relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 inline-flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-arrow-right-arrow-left"></i> Instant Trade-In Engine
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+          Swap Calculator & Valuation
+        </h2>
+        <p class="text-sm text-slate-400 mt-2">
+          Calculate your trade-in estimate instantly and discover the exact top-up balance needed to upgrade your phone or car.
+        </p>
+      </div>
+
+      <!-- Dual Swap Tabs (Gadget Swap vs Car Swap) -->
+      <div class="flex items-center justify-center border-b border-slate-800 mb-8">
+        <button id="swap-tab-gadgets" class="swap-tab-btn active flex items-center gap-2">
+          <i class="fa-solid fa-mobile-screen"></i> Phone & Gadget Swap
+        </button>
+        <button id="swap-tab-cars" class="swap-tab-btn flex items-center gap-2">
+          <i class="fa-solid fa-car"></i> Alirash Autos Car Swap
+        </button>
+      </div>
+
+      <!-- PANEL 1: GADGET SWAP CALCULATOR -->
+      <div id="swap-panel-gadgets" class="p-6 sm:p-10 rounded-3xl bg-slate-900/70 border border-slate-800 backdrop-blur-xl shadow-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          
+          <div class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">1. Current Device You Have:</label>
+              <select id="swap-current-device" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition">
+                <!-- Options populated by swap-calculator.js -->
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">2. Physical & Technical Condition:</label>
+              <select id="swap-condition" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition">
+                <option value="pristine">Pristine / Flawless (No scratches, 88%+ battery)</option>
+                <option value="good" selected>Good Condition (Minor pocket marks, 82%+ battery)</option>
+                <option value="fair">Fair (Noticeable marks/scratches, fully working)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">3. Desired Upgrade Device:</label>
+              <select id="swap-target-device" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition">
+                <!-- Options populated by swap-calculator.js -->
+              </select>
+            </div>
+          </div>
+
+          <!-- Valuation Output Card -->
+          <div class="p-6 rounded-2xl bg-slate-950/80 border border-cyan-500/30 flex flex-col justify-between space-y-6">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span>Estimated Trade-In Credit:</span>
+                <span id="swap-tradein-value" class="font-bold text-emerald-400 text-sm">₦0</span>
+              </div>
+              <div class="flex items-center justify-between text-xs text-slate-400">
+                <span>Target Device Price:</span>
+                <span id="swap-target-price" class="font-bold text-white text-sm">₦0</span>
+              </div>
+              <div class="h-px bg-slate-800 my-2"></div>
+              <div>
+                <div class="text-xs uppercase font-extrabold text-cyan-400 tracking-wider">Estimated Top-Up Amount:</div>
+                <div id="swap-topup-value" class="text-3xl sm:text-4xl font-black text-white mt-1">
+                  ₦0
+                </div>
+                <p class="text-[11px] text-slate-400 mt-1">*Final evaluation done in 5 minutes at our Offa store opposite UBA.</p>
+              </div>
+            </div>
+
+            <button id="btn-submit-gadget-swap" class="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/50">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+              <span>Get Swap Approved on WhatsApp</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL 2: ALIRASH AUTOS CAR SWAP -->
+      <div id="swap-panel-cars" class="p-6 sm:p-10 rounded-3xl bg-slate-900/70 border border-slate-800 backdrop-blur-xl shadow-2xl hidden">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Car Make (e.g. Toyota, Mercedes, Lexus):</label>
+            <input type="text" id="car-swap-make" value="Toyota" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Car Model (e.g. Camry, C300, RX350):</label>
+            <input type="text" id="car-swap-model" value="Camry LE" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Year of Manufacture:</label>
+            <input type="text" id="car-swap-year" value="2016" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Current Mileage:</label>
+            <input type="text" id="car-swap-mileage" value="85,000 km" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+
+          <div class="md:col-span-2">
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Desired Car from Alirash Autos Inventory:</label>
+            <select id="car-swap-target" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition">
+              <option value="Mercedes-Benz C300 4MATIC (2021)">Mercedes-Benz C300 4MATIC (2021) - ₦34,500,000</option>
+              <option value="Lexus RX350 F-Sport (2020)">Lexus RX350 F-Sport (2020) - ₦38,000,000</option>
+              <option value="Toyota Camry XSE V6 (2022)">Toyota Camry XSE V6 (2022) - ₦29,500,000</option>
+              <option value="Range Rover Velar R-Dynamic (2020)">Range Rover Velar R-Dynamic (2020) - ₦46,000,000</option>
+              <option value="Toyota Land Cruiser Prado TX-L (2021)">Toyota Land Cruiser Prado TX-L (2021) - ₦52,000,000</option>
+            </select>
+          </div>
+
+          <div class="md:col-span-2 pt-2">
+            <button id="btn-submit-car-swap" class="w-full py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm transition flex items-center justify-center gap-2 shadow-xl shadow-emerald-950/50">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Schedule Physical Inspection in Offa (Opposite UBA)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== VERIFIED STORE LOCATION & GOOGLE MAPS ==================== -->
+  <section id="store-location" class="py-16 lg:py-24 bg-slate-950 border-t border-slate-800 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Location Details Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-red-500/20 text-red-300 border border-red-500/30 inline-flex items-center gap-2 mb-3">
+              <i class="fa-solid fa-map-pin text-red-400"></i> Verified Physical Store
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+              Visit Us in <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-amber-400">Offa, Kwara State</span>
+            </h2>
+            <p class="text-sm text-slate-300 mt-2 leading-relaxed">
+              We are strategically located directly in front of <strong>UBA (United Bank for Africa)</strong> on the main commercial strip of Offa. Walk in for instant gadget testing, warranty activations, car inspections, or quick swap deals.
+            </p>
+          </div>
+
+          <!-- Contact Cards Matrix -->
+          <div class="space-y-3">
+            <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-red-600/20 text-red-400 flex items-center justify-center flex-shrink-0 text-lg">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-slate-400 uppercase">Exact Address</div>
+                <div class="text-sm font-semibold text-white">Front of UBA (United Bank for Africa), Offa 250101, Kwara State, Nigeria</div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center flex-shrink-0 text-lg">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-slate-400 uppercase">Store Hotlines & WhatsApp</div>
+                <div class="text-sm font-semibold text-white flex flex-wrap items-center gap-3 mt-0.5">
+                  <a href="tel:09030630431" class="hover:text-cyan-400 transition font-mono">📞 0903 063 0431</a>
+                  <a href="tel:08136013129" class="hover:text-cyan-400 transition font-mono">📞 0813 601 3129</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-pink-600/20 text-pink-400 flex items-center justify-center flex-shrink-0 text-lg">
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-slate-400 uppercase">TikTok & Email</div>
+                <div class="text-sm font-semibold text-white flex flex-wrap items-center gap-3 mt-0.5">
+                  <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="hover:text-pink-400 transition">@alirashglobal</a>
+                  <a href="mailto:alyus545@gmail.com" class="hover:text-cyan-400 transition">alyus545@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center flex-shrink-0 text-lg">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <div class="text-xs font-bold text-slate-400 uppercase">Opening Hours</div>
+                <div class="text-xs text-slate-200 mt-1 space-y-0.5">
+                  <div><strong>Monday – Friday:</strong> 8:00 AM – 7:00 PM</div>
+                  <div><strong>Saturday:</strong> 9:00 AM – 6:30 PM</div>
+                  <div><strong>Sunday:</strong> 12:00 PM – 5:00 PM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="https://maps.app.goo.gl/2kjSPVvcvG7uiUpx5?g_st=aw" target="_blank" rel="noopener noreferrer" 
+               class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-500 hover:to-amber-500 text-white font-bold text-xs transition flex items-center justify-center gap-2.5 shadow-xl shadow-red-950/40">
+              <i class="fa-solid fa-diamond-turn-right text-base"></i>
+              <span>Open in Google Maps (Get Directions)</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Google Map Interactive Visual Container -->
+        <div class="lg:col-span-7">
+          <div class="relative rounded-3xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-[16/10] sm:aspect-[16/9]">
+            
+            <iframe 
+              src="https://maps.google.com/maps?q=ALIRASH+GLOBAL+COMMUNICATION+Front+of+UBA+Offa+Kwara+State&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="100%" 
+              style="border:0; filter: invert(90%) hue-rotate(180deg) contrast(100%);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-slate-950/90 border border-slate-700/80 backdrop-blur-md flex items-center justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <div class="brand-ag-emblem w-10 h-10 text-xs flex-shrink-0">AG</div>
+                <div>
+                  <div class="text-xs font-bold text-white truncate">Alirash Global Communication & Autos</div>
+                  <div class="text-[11px] text-slate-400 truncate">Opposite UBA Bank, Offa, Kwara State</div>
+                </div>
+              </div>
+              <a href="https://maps.app.goo.gl/2kjSPVvcvG7uiUpx5?g_st=aw" target="_blank" class="px-3 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold transition flex items-center gap-1.5 flex-shrink-0">
+                <i class="fa-solid fa-location-arrow"></i> Navigate
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS & REVIEWS SECTION ==================== -->
+  <section class="py-16 lg:py-24 bg-[#030712] relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-amber-500/10 text-amber-300 border border-amber-500/30 inline-flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-star text-amber-400"></i> Customer Satisfaction
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+          Loved by Customers in <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-400">Offa & Nationwide</span>
+        </h2>
+        <div class="flex items-center justify-center gap-2 mt-3 text-sm text-slate-400">
+          <div class="flex text-amber-400">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span class="font-bold text-white">4.9 / 5.0</span>
+          <span>(Over 250+ Verified Offa & Nationwide Transactions)</span>
+        </div>
+      </div>
+
+      <div id="testimonials-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Injected dynamically by app.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ACCORDION SECTION ==================== -->
+  <section class="py-16 bg-slate-950 border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider bg-blue-500/10 text-cyan-400 border border-blue-500/30 inline-flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-circle-question"></i> Help & FAQs
+        </span>
+        <h2 class="text-3xl font-extrabold font-heading text-white">
+          Frequently Asked Questions
+        </h2>
+      </div>
+
+      <div id="faq-accordion-container" class="space-y-4">
+        <!-- Injected dynamically by app.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== DIRECT CONTACT & INQUIRY FORM ==================== -->
+  <section class="py-16 lg:py-24 bg-[#030712] relative border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="p-8 sm:p-12 rounded-3xl bg-slate-900/80 border border-slate-800 backdrop-blur-xl shadow-2xl">
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <h3 class="text-2xl sm:text-3xl font-extrabold font-heading text-white">
+            Send a Direct Inquiry to Alirash Global
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-400 mt-2">
+            Have a custom device request, wholesale bulk inquiry, or vehicle booking? Drop your details below for instant WhatsApp response.
+          </p>
+        </div>
+
+        <form id="direct-contact-form" class="space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Your Full Name:</label>
+              <input type="text" id="contact-name" required placeholder="e.g. Babatunde Adeyemi" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Phone / WhatsApp Number:</label>
+              <input type="tel" id="contact-phone" required placeholder="e.g. 0801 234 5678" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Inquiry Type:</label>
+            <select id="contact-service" class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition">
+              <option value="Buy iPhone 17 / 16 / Phone">Buy iPhone 17 Pro Max / Phone / Laptop</option>
+              <option value="Phone Swap / Trade-In">Phone Swap / Trade-In Inquiry</option>
+              <option value="Alirash Autos Car Inquiry">Alirash Autos - Buy / Inspect Car</option>
+              <option value="Car Swap / Trade-In">Alirash Autos - Car Swap</option>
+              <option value="Wholesale / Corporate Order">Wholesale / Corporate Supply</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase mb-2">Your Message / Specifications:</label>
+            <textarea id="contact-message" rows="3" required placeholder="Tell us the exact gadget or vehicle you need..." class="w-full p-3.5 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white focus:border-cyan-400 focus:outline-none transition"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-sm transition shadow-lg shadow-cyan-900/30 flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>Send Inquiry via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-slate-950 border-t border-slate-800 text-slate-400 text-xs py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="brand-ag-emblem w-9 h-9 text-base">AG</div>
+            <div class="font-heading font-bold text-white text-base">ALIRASH GLOBAL</div>
+          </div>
+          <p class="text-xs leading-relaxed text-slate-400">
+            Dealers in all kinds of original iPhones, Samsung, iPads, Google Pixel, Laptops & Accessories. Plus Alirash Autos - We Buy, Sell & Swap Cars.
+          </p>
+          <div class="flex items-center gap-3 pt-1">
+            <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-pink-600 text-white flex items-center justify-center transition border border-slate-800" title="TikTok @alirashglobal">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://wa.me/2349030630431" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-emerald-600 text-white flex items-center justify-center transition border border-slate-800" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:alyus545@gmail.com" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-cyan-600 text-white flex items-center justify-center transition border border-slate-800" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Quick Navigation</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#showroom-3d" class="hover:text-cyan-400 transition">3D Interactive Showroom</a></li>
+            <li><a href="#tiktok-section" class="hover:text-pink-400 transition">TikTok Video Reels</a></li>
+            <li><a href="#gadgets" class="hover:text-cyan-400 transition">iPhone & Samsung Store</a></li>
+            <li><a href="#autos" class="hover:text-cyan-400 transition">Alirash Autos Dealership</a></li>
+            <li><a href="#swap-calculator-section" class="hover:text-cyan-400 transition">Swap Calculator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Store Contacts</h4>
+          <ul class="space-y-2 text-xs">
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-phone text-cyan-400"></i>
+              <a href="tel:09030630431" class="hover:text-white transition font-mono">0903 063 0431</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+              <a href="https://wa.me/2348136013129" target="_blank" class="hover:text-white transition font-mono">0813 601 3129</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i class="fa-solid fa-envelope text-cyan-400"></i>
+              <a href="mailto:alyus545@gmail.com" class="hover:text-white transition">alyus545@gmail.com</a>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-location-dot text-red-400 mt-1"></i>
+              <span>Front of UBA (United Bank for Africa), Offa 250101, Kwara State</span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Store Admin & Payments</h4>
+          <p class="text-xs text-slate-400 mb-3">
+            Official bank transfers, POS terminals at the Offa showroom, or pay on delivery.
+          </p>
+          <div class="space-y-2">
+            <button id="cart-bank-details-btn" class="w-full py-2 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-cyan-300 font-bold text-xs border border-slate-700 transition flex items-center justify-center gap-2">
+              <i class="fa-solid fa-building-columns"></i> View Official Bank Accounts
+            </button>
+            <button onclick="window.AlirashCatalog.openAddItemModal()" class="w-full py-2 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white font-bold text-xs border border-slate-800 transition flex items-center justify-center gap-1.5">
+              <i class="fa-solid fa-plus text-cyan-400"></i> Add New Product to Store
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <div>
+          © 2026 <strong>Alirash Global Communication & Alirash Autos</strong>. All Rights Reserved.
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="hover:text-pink-400 transition">TikTok @alirashglobal</a>
+          <span>•</span>
+          <a href="https://maps.app.goo.gl/2kjSPVvcvG7uiUpx5?g_st=aw" target="_blank" class="hover:text-cyan-400 transition">Google Maps Pin</a>
+          <span>•</span>
+          <span>Offa, Kwara State, Nigeria</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING WHATSAPP & TIKTOK BUTTONS ==================== -->
+  <div class="fixed bottom-6 left-6 z-40 flex flex-col gap-3">
+    <!-- TikTok Pill Floating Button -->
+    <a href="https://www.tiktok.com/@alirashglobal" target="_blank" 
+       class="w-12 h-12 rounded-full bg-slate-900 hover:bg-pink-600 text-white flex items-center justify-center shadow-xl border border-slate-700 transition-transform hover:scale-110 group" title="TikTok @alirashglobal">
+      <i class="fa-brands fa-tiktok text-lg text-pink-400 group-hover:text-white"></i>
+      <span class="absolute left-14 bg-slate-900 text-white text-xs font-bold py-1 px-2.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-slate-700 shadow pointer-events-none">
+        TikTok @alirashglobal (10.5K Likes)
+      </span>
+    </a>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/2349030630431?text=Hello%20Alirash%20Global,%20I%20am%20chatting%20with%20you%20from%20your%20website" target="_blank" 
+       class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center shadow-2xl shadow-emerald-950/80 transition-transform hover:scale-110 group" title="Chat with Alirash Global on WhatsApp">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="absolute left-16 bg-slate-900 text-white text-xs font-bold py-1.5 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-slate-700 shadow pointer-events-none">
+        WhatsApp Online 24/7
+      </span>
+    </a>
+  </div>
+
+  <!-- ==================== ADD NEW ITEM / INVENTORY MANAGER MODAL ==================== -->
+  <div id="add-item-modal" class="modal-backdrop hidden">
+    <div class="modal-content-card relative z-10 p-6 sm:p-8 max-w-xl">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-blue-600/20 text-cyan-400 flex items-center justify-center">
+            <i class="fa-solid fa-boxes-stacked text-sm"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Store Inventory Manager</h3>
+            <p class="text-[11px] text-slate-400">Add or update new items live in the store catalog</p>
+          </div>
+        </div>
+        <button id="close-add-item-btn" class="p-1.5 text-slate-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <form id="add-product-form" class="space-y-4 text-xs">
+        <div>
+          <label class="block font-bold text-slate-300 uppercase mb-1.5">Product Title / Name:</label>
+          <input type="text" id="new-prod-name" required placeholder="e.g. iPhone 17 Pro (256GB Cosmic Blue)" class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block font-bold text-slate-300 uppercase mb-1.5">Category:</label>
+            <select id="new-prod-category" class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition">
+              <option value="iphone">iPhones</option>
+              <option value="samsung">Samsung</option>
+              <option value="google-pixel">Google Pixel</option>
+              <option value="laptops">Laptops & MacBooks</option>
+              <option value="ipads">iPads & Tablets</option>
+              <option value="audio">Audio & Speakers</option>
+              <option value="gaming">Gaming & PS5</option>
+              <option value="accessories">Accessories</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-bold text-slate-300 uppercase mb-1.5">Condition:</label>
+            <select id="new-prod-condition" class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition">
+              <option value="Brand New">Brand New Sealed</option>
+              <option value="Direct UK Used">Direct UK Used (Grade A)</option>
+              <option value="Tokunbo (Foreign Used)">Tokunbo (Foreign Used)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block font-bold text-slate-300 uppercase mb-1.5">Price in Nigerian Naira (₦):</label>
+            <input type="number" id="new-prod-price" required placeholder="e.g. 1850000" class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+
+          <div>
+            <label class="block font-bold text-slate-300 uppercase mb-1.5">Brand:</label>
+            <input type="text" id="new-prod-brand" placeholder="e.g. Apple / Samsung / HP" class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-300 uppercase mb-1.5">Image URL (Direct image link or Unsplash):</label>
+          <input type="url" id="new-prod-image" placeholder="https://images.unsplash.com/..." class="w-full p-3 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-300 uppercase mb-1.5">Badge Tag & Short Description:</label>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-2">
+            <input type="text" id="new-prod-tag" placeholder="Tag: e.g. Hot Deal" class="p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+            <input type="text" id="new-prod-desc" placeholder="Brief description..." class="sm:col-span-2 p-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs focus:border-cyan-400 focus:outline-none transition" />
+          </div>
+        </div>
+
+        <div class="pt-2 flex items-center gap-3">
+          <button type="submit" class="flex-1 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-xs transition flex items-center justify-center gap-2 shadow-lg shadow-cyan-900/40">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <span>Publish Item to Store</span>
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ==================== CART DRAWER OVERLAY ==================== -->
+  <div id="cart-drawer-overlay" class="hidden">
+    <div id="cart-drawer-backdrop"></div>
+    
+    <div id="cart-drawer-panel" class="p-6 flex flex-col justify-between">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-bag-shopping text-cyan-400"></i>
+          <h3 class="text-base font-bold text-white">Your Shopping Cart</h3>
+        </div>
+        <button id="close-cart-btn" class="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <div id="cart-drawer-items-list" class="flex-1 overflow-y-auto py-4"></div>
+
+      <div id="cart-empty-state" class="flex-1 flex flex-col items-center justify-center text-center p-4">
+        <div class="w-16 h-16 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 text-2xl mb-3">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
+        <div class="text-sm font-bold text-white mb-1">Your cart is empty</div>
+        <p class="text-xs text-slate-400 mb-4">Explore our iPhone, Samsung, MacBook and Audio collection.</p>
+        <button onclick="window.AlirashCart.closeCartDrawer()" class="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold">Start Shopping</button>
+      </div>
+
+      <div id="cart-checkout-actions" class="pt-4 border-t border-slate-800 space-y-3">
+        <div class="space-y-2 text-xs">
+          <input type="text" id="checkout-customer-name" placeholder="Your Name" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 text-xs" />
+          <input type="tel" id="checkout-customer-phone" placeholder="Phone Number" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 text-xs" />
+          <select id="checkout-delivery-location" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-cyan-400 text-xs">
+            <option value="Store Pickup (Opposite UBA Offa)">Store Pickup (Opposite UBA Offa)</option>
+            <option value="Doorstep Delivery within Offa">Doorstep Delivery within Offa (Kwara)</option>
+            <option value="Doorstep Delivery to Ilorin / Osogbo">Delivery to Ilorin / Osogbo</option>
+            <option value="Nationwide Express Courier (Lagos / Abuja / PH / Other)">Nationwide Express Courier (Lagos/Abuja/etc)</option>
+          </select>
+        </div>
+
+        <div class="flex items-center justify-between text-xs text-slate-400 pt-2">
+          <span>Total Order Value:</span>
+          <span id="cart-total-price" class="text-lg font-black text-white">₦0</span>
+        </div>
+
+        <button id="cart-whatsapp-checkout-btn" class="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/60">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Proceed via WhatsApp Checkout</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== QUICK VIEW PRODUCT MODAL ==================== -->
+  <div id="quickview-modal" class="modal-backdrop hidden">
+    <div id="quickview-backdrop" class="absolute inset-0"></div>
+    
+    <div class="modal-content-card relative z-10 p-6 sm:p-8">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+        <div class="flex items-center gap-2">
+          <span id="qv-brand" class="px-2.5 py-1 rounded-full text-[10px] font-extrabold uppercase bg-blue-600/20 text-cyan-300 border border-cyan-500/30">Apple</span>
+          <span id="qv-condition" class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300">Brand New</span>
+        </div>
+        <button id="close-quickview-btn" class="p-1.5 text-slate-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+        <div class="rounded-2xl overflow-hidden bg-slate-950 aspect-square flex items-center justify-center p-2">
+          <img id="qv-image" src="" alt="" class="w-full h-full object-cover rounded-xl" />
+        </div>
+
+        <div class="space-y-4">
+          <h3 id="qv-title" class="text-xl font-bold text-white">Product Title</h3>
+          
+          <div class="flex items-baseline gap-2">
+            <span id="qv-price" class="text-2xl font-black text-white">₦0</span>
+            <span id="qv-old-price" class="text-xs text-slate-500 line-through"></span>
+          </div>
+
+          <p id="qv-description" class="text-xs text-slate-300 leading-relaxed"></p>
+
+          <div id="qv-stock" class="text-xs font-semibold text-emerald-400 flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span> In Stock at Offa Showroom
+          </div>
+
+          <div id="qv-specs-table" class="bg-slate-950/60 p-3 rounded-xl border border-slate-800"></div>
+
+          <div class="flex items-center gap-2 pt-2">
+            <button id="qv-add-cart-btn" class="flex-1 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold border border-slate-700 transition flex items-center justify-center gap-1.5">
+              <i class="fa-solid fa-cart-plus text-cyan-400"></i> Add to Cart
+            </button>
+            <button id="qv-whatsapp-btn" class="flex-1 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow">
+              <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== BANK ACCOUNT DETAILS MODAL ==================== -->
+  <div id="bank-details-modal" class="modal-backdrop hidden">
+    <div class="modal-content-card relative z-10 p-6 sm:p-8 max-w-lg">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-building-columns text-cyan-400"></i>
+          <h3 class="text-base font-bold text-white">Official Bank Payment Details</h3>
+        </div>
+        <button class="close-modal-btn p-1.5 text-slate-400 hover:text-white transition">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-300 mb-4">
+        Kindly verify account name matches <strong>ALIRASH GLOBAL</strong> before transferring. Send transaction receipt directly to <strong>09030630431</strong> on WhatsApp.
+      </p>
+
+      <div class="space-y-3">
+        <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center justify-between">
+          <div>
+            <div class="text-xs font-extrabold text-red-400">United Bank for Africa (UBA)</div>
+            <div class="text-base font-mono font-bold text-white tracking-wider my-0.5">1024890312</div>
+            <div class="text-[11px] text-slate-400">Alirash Global Communication</div>
+          </div>
+          <button onclick="window.AlirashCart.copyToClipboard('1024890312', 'UBA Account')" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-cyan-300 text-xs font-bold border border-slate-700 transition">
+            Copy
+          </button>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center justify-between">
+          <div>
+            <div class="text-xs font-extrabold text-orange-400">Guaranty Trust Bank (GTBank)</div>
+            <div class="text-base font-mono font-bold text-white tracking-wider my-0.5">0789234105</div>
+            <div class="text-[11px] text-slate-400">Alirash Global Communication</div>
+          </div>
+          <button onclick="window.AlirashCart.copyToClipboard('0789234105', 'GTBank Account')" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-cyan-300 text-xs font-bold border border-slate-700 transition">
+            Copy
+          </button>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center justify-between">
+          <div>
+            <div class="text-xs font-extrabold text-emerald-400">OPay / Moniepoint</div>
+            <div class="text-base font-mono font-bold text-white tracking-wider my-0.5">9030630431</div>
+            <div class="text-[11px] text-slate-400">Alirash Telecom</div>
+          </div>
+          <button onclick="window.AlirashCart.copyToClipboard('9030630431', 'OPay Account')" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-cyan-300 text-xs font-bold border border-slate-700 transition">
+            Copy
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==================== MOBILE NAVIGATION DRAWER ==================== -->
+  <div id="mobile-nav-drawer" class="hidden">
+    <div id="mobile-nav-backdrop" class="absolute inset-0 bg-slate-950/80 backdrop-blur-md"></div>
+    <div id="mobile-nav-panel" class="p-6 flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
+          <div class="flex items-center gap-2.5">
+            <div class="brand-ag-emblem w-8 h-8 text-sm">AG</div>
+            <span class="font-heading font-extrabold text-white text-sm">ALIRASH GLOBAL</span>
+          </div>
+          <button id="close-mobile-nav-btn" class="p-1.5 text-slate-400 hover:text-white">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+
+        <nav class="space-y-4 text-sm font-semibold">
+          <a href="#showroom-3d" class="block py-2 text-slate-300 hover:text-cyan-400"><i class="fa-solid fa-cube text-cyan-400 mr-2 w-5"></i> 3D Studio</a>
+          <a href="#tiktok-section" class="block py-2 text-slate-300 hover:text-pink-400"><i class="fa-brands fa-tiktok text-pink-400 mr-2 w-5"></i> TikTok Reels</a>
+          <a href="#gadgets" class="block py-2 text-slate-300 hover:text-cyan-400"><i class="fa-solid fa-mobile-screen text-blue-400 mr-2 w-5"></i> Gadget Store</a>
+          <a href="#autos" class="block py-2 text-slate-300 hover:text-cyan-400"><i class="fa-solid fa-car text-amber-400 mr-2 w-5"></i> Alirash Autos</a>
+          <a href="#swap-calculator-section" class="block py-2 text-slate-300 hover:text-cyan-400"><i class="fa-solid fa-arrow-right-arrow-left text-emerald-400 mr-2 w-5"></i> Swap Calculator</a>
+          <a href="#store-location" class="block py-2 text-slate-300 hover:text-cyan-400"><i class="fa-solid fa-location-dot text-red-400 mr-2 w-5"></i> Offa Store Location</a>
+        </nav>
+      </div>
+
+      <div class="pt-6 border-t border-slate-800 space-y-3">
+        <a href="https://www.tiktok.com/@alirashglobal" target="_blank" class="w-full py-3 rounded-xl bg-pink-600 text-white font-bold text-xs text-center block">
+          <i class="fa-brands fa-tiktok mr-1.5"></i> Follow on TikTok
+        </a>
+        <a href="https://wa.me/2349030630431" target="_blank" class="w-full py-3 rounded-xl bg-emerald-600 text-white font-bold text-xs text-center block">
+          <i class="fa-brands fa-whatsapp mr-1.5"></i> Chat on WhatsApp
+        </a>
+        <a href="tel:09030630431" class="w-full py-3 rounded-xl bg-slate-900 text-cyan-300 font-bold text-xs text-center block border border-slate-800">
+          <i class="fa-solid fa-phone mr-1.5"></i> Call 0903 063 0431
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/catalog.js"></script>
+  <script src="js/swap-calculator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
